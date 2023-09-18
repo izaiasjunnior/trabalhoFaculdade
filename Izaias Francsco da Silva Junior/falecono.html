@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>FaleConosco</title>
+</head>
+<body style="background-color: rgba(246, 249, 250, 0.63);">
+   <h1>Fale Conosco</h1>
+   <form  method="get" action="grava.php">
+    <fieldset>Dados pessoais
+        <br>
+    Nome:<input type="text" id="nome" size="100" maxlength="50" placeholder="Digite o nome completo" autofocus required>
+    <br>
+    e-mail:<input type="email" id="e-mail" size="80"
+    maxlength="20"
+    placeholder="Digite seu email">
+    </fieldset>
+    <fieldset>
+        <legend>contato</legend>
+        <p>Selecione o campus</p>
+    <p>
+	
+	Campus Aeroporto: <input type="radio" name="citizenship" ><br>
+	Campus centro: <input type="radio" name="citizenship" ><br>
+    </p>
+
+
+        <label for="estilo"> Qual assunto </label>
+        <input id="estilo" name="estilo" type="text" list="listaestilos">
+        <datalist id="listaestilos">Escolha entre estes:
+        <option value="Reclamação"></option>
+        <option value="Sugestão"></option>
+        <option value="Elogio"></option>
+        <option value="Denúncia"></option>
+        <option value="outros"></option>
+        </datalist>
+        <br>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10">digite sua mensagem</textarea>
+        <br>
+        <button type="button" onclick="alert('mensagem enviada com sucesso.')">
+            <strong>Enviar</strong>
+            </button>
+            <br>
+        </fieldset>
+        
+   </form>
+
+   <footer>
+    <a href="https://uniube.br/" target="_blank" ><img style="width: 300px;" src="imagens/principal/uniubelogo.svg" alt="logo uniube"  title="ir para o site uniube"  ></a>
+        
+   </footer>
+
+</body>
+</html>

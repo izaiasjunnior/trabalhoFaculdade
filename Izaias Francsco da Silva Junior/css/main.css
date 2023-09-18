@@ -1,0 +1,46 @@
+body{ 
+    background-color: #747eb4;
+}
+
+
+header{
+    background-color: #fdfbf783;
+   text-align: center;
+   border-radius: 10px;
+
+}
+
+
+h1{
+    font-size: 80px;
+}
+
+a{
+    font-size: 28px;
+}
+
+#regioes{
+ padding-left: 35%;
+
+
+}
+
+#logo{
+    bottom: 0%;
+    padding-left: 35%;
+    width: 35%;
+   
+}
+h4{ 
+    text-align: center;
+    background: #fdfbf783;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+
+p{ text-align: center;
+    padding-left: 2%;
+    background: #fdfbf783;
+    font-size: 20px;
+}
